@@ -1,0 +1,59 @@
+1. SELECT:
+    -* selects all
+    -specific elements can be selected and seperated using a comma
+      e.g select name , age FROM table_name;
+    -SELECT DISTINCT is used to select distinct(different-no duplicates) values
+      - incase of repeated entries, it only show an entry only once
+
+    -COUNT is used to return a number, for example when used with select
+      - example:
+        SELECT COUNT(DISTINCT Names) FROM table_name;
+        this returns the number of different names in the table
+
+2. WHERE :
+    -Used to specify a filtering condition.
+    -it can be used within SELECT, DELETE UPDATE etc..
+    -Example :
+      - SELECT * FROM table_name
+        WHERE studentName = 'MICHAEL';
+         - this will return the data associated with all students whose name is MICHAEL
+    -Where can also be used with mathematical relational operators
+    - other conditions may include BETWEEN, LIKE and IN
+    - logic operators can also be used with  WHERE.
+    -Examples :
+      - SELECT name , age,..
+        FROM classList
+        WHERE country = 'Germany' AND major = 'ECE' ...;
+
+
+      - SELECT name , age,..
+        FROM classList
+        WHERE country = 'ZIMBABWE' OR major = 'CS'...;
+
+
+      - SELECT name , age,..
+        FROM classList
+        WHERE NOT age < 21 AND NOT country = 'Germany';
+
+3. ODER BY :
+      -Used to sort words in ascending or descending order
+      -By default it sets the order to ascending order
+      -If descending order is desired, DESC is used.
+      -Syntax :
+          - SELECT name, age,...
+            FROM classList
+            ORDER BY age; //shown is ascending order
+
+
+          - SELECT name, age,...
+            FROM classList
+            ORDER BY age DESC; //shown is descending order
+
+
+4. INSERT INTO :
+        - Used to insert elements (new records) into a table
+        -Syntax :
+            - INSERT INTO classList (Name, Surname , Age, Major, Country)
+              VALUES (Michael, Magaisa, 22, ECE, Zimbabwe);
+            - The column names can be left off, but order of appearance has to be kept
+            
