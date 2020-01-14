@@ -3,7 +3,7 @@
 - Code needs to be edited if one intends to reuse it, to fit given requirements, particularly the table contents to suit your project data.
 
 
-##### REQUIREMENTS TO BE ABLE TO USE THIS TEMPLATE : 
+#### REQUIREMENTS TO BE ABLE TO USE THIS TEMPLATE : 
 Most terminal commands used below are for kali linux, they also apply to debian ubuntu
   -  Download mysql.
        - I used kali linux and this comes with MariaDB installed, which should suffice hence if using Kali linux of Debian Ubuntu, skip this step.
