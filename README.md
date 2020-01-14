@@ -15,7 +15,7 @@ Most terminal commands used below are for kali linux, they also apply to debian 
   3. To be able to successifully create a DB and perfom operations, one needs to be logged in. From the terminal, type :
       - to start mysql : $ service start mysql
       - to check if mysql is active : $service mysql status
-      - to lo in : $mysql -h "localhost" -u "MyUsername" -p
-      - hit enter and type your password and you should be connected.
+      - to login : $mysql -h "localhost" -u "type your username here" -p hit enter and 
+      - type your password and you should be connected.
       
       
