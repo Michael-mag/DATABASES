@@ -8,13 +8,14 @@ Most terminal commands used below are for kali linux, they also apply to debian 
   -  Download mysql.
        - I used kali linux and this comes with MariaDB installed, which should suffice hence if using Kali linux of Debian Ubuntu, skip this step.
   2. Download mysql connector for the latest version of python. In my case python 3.7 mysql connector 8.x
-      use command (for python3.x)  : pip3 install mysql-connector-python
+      use the command (for python3.x)  : 
+       - pip3 install mysql-connector-python
       for other OS, find how to install it form https://pynative.com/install-mysql-connector-python/
      
   3. To be able to successifully create a DB and perfom operations, one needs to be logged in. From the terminal, type :
-      -to start mysql : $ service start mysql
-      -to check if mysql is active : $service mysql status
-      -to lo in : $mysql -h "localhost" -u "MyUsername" -p
-      -hit enter and type your password and you should be connected.
+      - to start mysql : $ service start mysql
+      - to check if mysql is active : $service mysql status
+      - to lo in : $mysql -h "localhost" -u "MyUsername" -p
+      - hit enter and type your password and you should be connected.
       
       
